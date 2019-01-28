@@ -3,39 +3,6 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 📝 `NOTE - PASTE PART 2 SNIPPET HERE:` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
 
----
-
-## Flix Part 1
-
-### User Stories
-
-#### REQUIRED (10pts)
-- [x] (2pts) User sees an app icon on the home screen and a styled launch screen.
-- [x] (5pts) User can view and scroll through a list of movies now playing in theaters.
-- [x] (3pts) User can view the movie poster image for each movie.
-
-#### BONUS
-- [ ] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
-
-### App Walkthough GIF
-
-<img src="https://i.imgur.com/QJce91h.gifv" width=250><br>
-
-### Notes
-
-1. In the main.storyboard, the Storyboard Entry point is very important while launching,
-It tells the simulator which view to initiate first. Or else, it is going to show errors after lauching.
-When accidentally deleting it, click on the first view and then the attribute and mark the Entry point selection
-
-2. Copy the height of the cell and paste it into the table view row height, this will makes every cell in the table view have the same height
-
-3. Problem I met last time, after clicking on the double ring on the left, if the corresponding swift code of the storyboard does not show up, check on the storyboard identity class name to see if it is the correct swift code class name
-
-4.The URL link in the JSON file of Flixter. backdrop path is the wider version of the poster 
-
-------
-
 ## Flix Part 2
 
 ### User Stories
@@ -70,4 +37,35 @@ When accidentally deleting it, click on the first view and then the attribute an
 
 12. If you want images stay together without having any margins or white board, also put imageview with “aspect fill” and “clip to bound”
 
+---
 
+## Flix Part 1
+
+### User Stories
+
+#### REQUIRED (10pts)
+- [x] (2pts) User sees an app icon on the home screen and a styled launch screen.
+- [x] (5pts) User can view and scroll through a list of movies now playing in theaters.
+- [x] (3pts) User can view the movie poster image for each movie.
+
+#### BONUS
+- [ ] (2pt) User can view the app on various device sizes and orientations.
+- [ ] (1pt) Run your app on a real device.
+
+### App Walkthough GIF
+
+<img src="https://i.imgur.com/QJce91h.gifv" width=250><br>
+
+### Notes
+
+1. In the main.storyboard, the Storyboard Entry point is very important while launching,
+It tells the simulator which view to initiate first. Or else, it is going to show errors after lauching.
+When accidentally deleting it, click on the first view and then the attribute and mark the Entry point selection
+
+2. Copy the height of the cell and paste it into the table view row height, this will makes every cell in the table view have the same height
+
+3. Problem I met last time, after clicking on the double ring on the left, if the corresponding swift code of the storyboard does not show up, check on the storyboard identity class name to see if it is the correct swift code class name
+
+4.The URL link in the JSON file of Flixter. backdrop path is the wider version of the poster 
+
+------
